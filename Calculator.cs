@@ -5,8 +5,6 @@ namespace ShapeAreaLib
 {
 	public class Calculator
 	{
-		
-
 		public static Shape Calc(params double[] list)
 		{
 			Shape shape;
@@ -17,7 +15,6 @@ namespace ShapeAreaLib
 			if (list.Length == 3) return shape = new Triangle(list);
 			if (list.Length == 4) return shape = new Triangle(list);
 			else throw new ArgumentException("Shape must have sides");
-
 		}
 
 
