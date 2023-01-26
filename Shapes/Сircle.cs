@@ -3,22 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ShapeAreaLib.Shapes;
 
 namespace ShapeAreaLib.Models
 {
-	internal class Rectangle : Shape
+    internal class Сircle : Shape
 	{
-		public Rectangle(double[] list)
+		public Сircle(double[] list)
 		{
 			this.Area = CalculateSquare(list);
-			
+			this.Message = "Это круг";
 		}
 		protected override double CalculateSquare(double[] list)
 		{
-			if (list[0] == list[1]) this.Message = "Это квадрат";
-			else this.Message = "Это прямоугольник";
-			return list[0] * list[1];
-			
+			return Math.PI* Math.Pow(list[0], 2);
 		}
 	}
 }

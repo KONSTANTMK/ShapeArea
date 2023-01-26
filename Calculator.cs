@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
 using ShapeAreaLib.Models;
+using ShapeAreaLib.Shapes;
 
 namespace ShapeAreaLib
 {
-	public class Calculator
+    public class Calculator
 	{
 		public static Shape Calc(params double[] list)
 		{
