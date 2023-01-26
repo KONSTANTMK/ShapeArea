@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ShapeAreaLib.Models
 {
-	public class Tringle:Shape
+	internal class Triangle:Shape
 	{
-		public Tringle(double[] list)
+		public Triangle(double[] list)
 		{
-			this.Square = CalculateSquare(list);
+			this.Area = CalculateSquare(list);
 			this.Message = "Это треугольник";
 		}
 

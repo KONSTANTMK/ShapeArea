@@ -8,7 +8,7 @@ namespace ShapeAreaLib.Models
 {
 	public abstract class Shape
 	{
-		public double Square;
+		public double Area;
 		public string? Message;
 
 
