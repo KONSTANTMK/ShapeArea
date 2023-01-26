@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeAreaLib", "ShapeAreaLib.csproj", "{C21D7BC0-3906-4F3B-9A9F-F3545747542D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainingProject", "..\TrainingProject\TrainingProject.csproj", "{5BD52547-AA9E-44CE-8542-195E1DEAD85C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C21D7BC0-3906-4F3B-9A9F-F3545747542D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21D7BC0-3906-4F3B-9A9F-F3545747542D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21D7BC0-3906-4F3B-9A9F-F3545747542D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21D7BC0-3906-4F3B-9A9F-F3545747542D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD52547-AA9E-44CE-8542-195E1DEAD85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD52547-AA9E-44CE-8542-195E1DEAD85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD52547-AA9E-44CE-8542-195E1DEAD85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD52547-AA9E-44CE-8542-195E1DEAD85C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E71701C-44FB-4004-85EC-E04807A1DD00}
+	EndGlobalSection
+EndGlobal
