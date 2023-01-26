@@ -17,11 +17,5 @@ namespace ShapeAreaLib
 			if (list.Length == 4) return shape = new Triangle(list);
 			else throw new ArgumentException("Shape must have sides");
 		}
-
-
-
-
-		
-
 	}
 }
