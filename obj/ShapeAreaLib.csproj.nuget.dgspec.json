@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Files\\Projects\\VS\\ShapeSquare\\ShapeSquareLib\\ShapeAreaLib.csproj": {}
+    "D:\\Files\\Projects\\VS\\ShapeSquareLib\\ShapeAreaLib.csproj": {}
   },
   "projects": {
-    "D:\\Files\\Projects\\VS\\ShapeSquare\\ShapeSquareLib\\ShapeAreaLib.csproj": {
+    "D:\\Files\\Projects\\VS\\ShapeSquareLib\\ShapeAreaLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Files\\Projects\\VS\\ShapeSquare\\ShapeSquareLib\\ShapeAreaLib.csproj",
+        "projectUniqueName": "D:\\Files\\Projects\\VS\\ShapeSquareLib\\ShapeAreaLib.csproj",
         "projectName": "ShapeAreaLib",
-        "projectPath": "D:\\Files\\Projects\\VS\\ShapeSquare\\ShapeSquareLib\\ShapeAreaLib.csproj",
+        "projectPath": "D:\\Files\\Projects\\VS\\ShapeSquareLib\\ShapeAreaLib.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Files\\Projects\\VS\\ShapeSquare\\ShapeSquareLib\\obj\\",
+        "outputPath": "D:\\Files\\Projects\\VS\\ShapeSquareLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
