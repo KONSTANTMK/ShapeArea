@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using ShapeAreaLib.Models;
+﻿using ShapeAreaLib.Models;
 using ShapeAreaLib.Shapes;
 
 namespace ShapeAreaLib.Controllers

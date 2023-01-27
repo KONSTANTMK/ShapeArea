@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ShapeAreaLib.Shapes;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using ShapeAreaLib.Shapes;
 
 namespace ShapeAreaLib.Models
 {
@@ -40,12 +34,7 @@ namespace ShapeAreaLib.Models
 			if (list[0] + list[1] > list[2] && list[0] + list[2] > list[1] && list[1] + list[2] > list[0])
 			{
 				double sum = 0;
-				for (int i = 0; i < list.Length; i++)
-				{
-
-					sum += list[i];
-
-				}
+				for (int i = 0; i < list.Length; i++)sum += list[i];
 				double p = sum / 2;
 
 				return Math.Sqrt(p * (p - list[0]) * (p - list[1]) * (p - list[2]));

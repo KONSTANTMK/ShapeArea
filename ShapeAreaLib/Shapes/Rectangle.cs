@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ShapeAreaLib.Shapes;
+﻿using ShapeAreaLib.Shapes;
 
 namespace ShapeAreaLib.Models
 {
@@ -12,7 +7,7 @@ namespace ShapeAreaLib.Models
 		public Rectangle(double[] list)
 		{
 			this.Area = CalculateSquare(list);
-			
+
 		}
 		protected override double CalculateSquare(double[] list)
 		{

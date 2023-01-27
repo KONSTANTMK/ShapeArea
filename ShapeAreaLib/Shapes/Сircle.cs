@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ShapeAreaLib.Shapes;
+﻿using ShapeAreaLib.Shapes;
 
 namespace ShapeAreaLib.Models
 {
