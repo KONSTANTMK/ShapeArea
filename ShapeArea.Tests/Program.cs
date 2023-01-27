@@ -1,5 +1,4 @@
-﻿using ShapeAreaLib;
-using ShapeAreaLib.Shapes;
+﻿using ShapeAreaLib.Shapes;
 using ShapeAreaLib.Controllers;
 
 Shape s = ShapeController.Calc(26);
