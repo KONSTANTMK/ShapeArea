@@ -1,7 +1,7 @@
 ﻿using ShapeAreaLib.Shapes;
 using ShapeAreaLib.Controllers;
 
-Shape s = ShapeController.Calc(26);
+Shape s = ShapeController.Calc(3);
 Console.WriteLine(s.Message + ", его площадь равна " + s.Area);
 
 Shape r = ShapeController.Calc(2, 3);
