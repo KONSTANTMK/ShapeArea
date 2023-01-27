@@ -11,7 +11,7 @@ Shape re = ShapeController.Calc(2, 2);
 Console.WriteLine(re.Message + ", его площадь равна " + re.Area);
 
 Shape tr = ShapeController.Calc(2, 5, 4);
-Console.WriteLine(tr.Message + ", его площsdsdадь равна " + tr.Area);
+Console.WriteLine(tr.Message + ", его площадь равна " + tr.Area);
 
 Shape t = ShapeController.Calc(3, 5, 4);
 Console.WriteLine(t.Message + ", его площадь равна  "+t.Area);
